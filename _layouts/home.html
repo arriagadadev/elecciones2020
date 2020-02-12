@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {% for election in site.elections %}
+    <h2>{{election.title}}</h2>
+    <a href="{{ election.url }}">
+      <p>Ver más</p>
+    </a>
+  {% endfor %}
+
+  <p><small>Información obtenida desde <a href="https://actualidad.rt.com/actualidad/337693-elecciones-america-latina-2020-previstas-sorpresivas">este link</a>.</small></p>
+
+</div>
