@@ -21,7 +21,7 @@
 title: Elecciones latinoamericanas 2020
 email: daniel.perez@swarm.cl
 description: Este proyecto es un ejemplo básico de un sitio estático generado con Jekyll.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "elecciones2020" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  arriagadadev
 
